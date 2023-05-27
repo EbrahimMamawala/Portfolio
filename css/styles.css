@@ -1,0 +1,130 @@
+hr{
+    border-top: 7px dotted #08D9D6;
+    height: 4px;
+    width: 10%;
+    margin: auto;
+}
+#header, #footer{
+    background-color: #FF2E63 !important;
+}
+.nav-link{
+    color: #252A34;
+}
+.nav-link:hover, p{
+    color: #EAEAEA;
+}
+h2.display-5.fw-bold.text-body-emphasis, h1.display-5.fw-bold.text-body-emphasis, h3.fw-bold.text-body-emphasis{
+    color: #EAEAEA !important;
+}
+h4.fw-bold.text-body-emphasis{
+  color: #EAEAEA !important;
+  text-align: center;
+}
+.about-pic{
+    height: 300px;
+}
+.photo
+{
+    border-radius: 50%;
+}
+#hero, #about, #skills, #contact-me, #projects
+{
+    background-color: #252A34;
+}
+
+.contact-button {
+  align-items: center;
+  appearance: none;
+  background-image: radial-gradient(100% 100% at 100% 0, #5adaff 0, #5468ff 100%);
+  border: 0;
+  border-radius: 6px;
+  box-shadow: rgba(45, 35, 66, .4) 0 2px 4px,rgba(45, 35, 66, .3) 0 7px 13px -3px,rgba(58, 65, 111, .5) 0 -3px 0 inset;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: inline-flex;
+  height: 48px;
+  justify-content: center;
+  line-height: 1;
+  list-style: none;
+  overflow: hidden;
+  padding-left: 16px;
+  padding-right: 16px;
+  position: relative;
+  text-align: left;
+  text-decoration: none;
+  transition: box-shadow .15s,transform .15s;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  white-space: nowrap;
+  will-change: box-shadow,transform;
+  font-size: 18px;
+}
+
+.contact-button:focus {
+  box-shadow: #3c4fe0 0 0 0 1.5px inset, rgba(45, 35, 66, .4) 0 2px 4px, rgba(45, 35, 66, .3) 0 7px 13px -3px, #3c4fe0 0 -3px 0 inset;
+}
+
+.contact-button:hover {
+  box-shadow: rgba(45, 35, 66, .4) 0 4px 8px, rgba(45, 35, 66, .3) 0 7px 13px -3px, #3c4fe0 0 -3px 0 inset;
+  transform: translateY(-2px);
+}
+
+.contact-button:active {
+  box-shadow: #3c4fe0 0 3px 7px inset;
+  transform: translateY(2px);
+}
+
+.soft-skills, .tech-skills {
+  display: flex;
+  justify-content: space-evenly;
+  text-align: center;
+}
+.soft-skills>*, .tech-skills>*{
+  width: 1000px;
+}
+
+.card-body{
+  background-color: #08D9D6;
+}
+
+.card{
+  border-color: #08D9D6;
+}
+
+.btn:hover{
+  background-color: #FF2E63;
+}
+.btn{
+  color:black
+}
+
+.about-g{
+  display: flex;
+  justify-content: left;
+  column-gap: 150px;
+}
+
+@media screen and (max-width: 768px){
+  .soft-skills, .tech-skills {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: left;
+  }
+  h4.fw-bold.text-body-emphasis{
+    color: #EAEAEA !important;
+    text-align: left;
+  }
+  .soft-skills>*, .tech-skills>*{
+    width: 300px;
+  }
+  .about-g{
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: left;
+    row-gap: 50px;
+  }
+}
+
